@@ -2,11 +2,8 @@ package com.eduardo.pontointeligente.api.services;
 
 import java.util.Optional;
 
-import org.springframework.stereotype.Service;
-
 import com.eduardo.pontointeligente.api.entities.Funcionario;
 
-@Service
 public interface FuncionarioService {
 	
 	/**

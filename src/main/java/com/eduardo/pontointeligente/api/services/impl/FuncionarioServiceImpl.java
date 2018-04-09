@@ -9,9 +9,10 @@ import org.springframework.stereotype.Service;
 
 import com.eduardo.pontointeligente.api.entities.Funcionario;
 import com.eduardo.pontointeligente.api.repository.FuncionarioRepository;
+import com.eduardo.pontointeligente.api.services.FuncionarioService;
 
 @Service
-public class FuncionarioServiceImpl {
+public class FuncionarioServiceImpl implements FuncionarioService {
 
 	private static final Logger log = LoggerFactory.getLogger(FuncionarioServiceImpl.class);
 
